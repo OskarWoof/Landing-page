@@ -488,6 +488,34 @@ Main-Footer
   font-size: 2em;
 }
 
+
+.line {
+  width: var(--max-width);
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+  margin: 5rem 0;
+}
+.line::before{
+  content: '';
+  position: absolute;
+  left: 0%;
+  height: 2px;
+  width: 50%;
+  background: #000;
+}
+.line::after{
+  content: '';
+  position: absolute;
+  /* right: 0; */
+  height: 2px;
+  width: 50%;
+  background: #000;
+}
+.line h4{
+margin: 0;
+padding: 2rem 0;
+}
 /*
 ==============
 Media-Queries
