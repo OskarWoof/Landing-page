@@ -384,7 +384,8 @@ Section About Us
   margin-bottom: 1.5rem;
 }
 #about h2 {
-  padding: 0 5rem;
+  /* font-size: 1.7rem; */
+  padding: 0 2.5rem;
   font-weight: 800;
   margin-bottom: 2rem;
 }
@@ -409,9 +410,7 @@ Section Membership
   background-color: var(--clr-grey-9);
   text-align: center;
 }
-#membership p {
-  margin-bottom: 5rem;
-}
+
 .price-cards {
   display: flex;
   flex-wrap: wrap;
@@ -425,19 +424,30 @@ Section Membership
   margin: 1rem 1rem 3rem 1rem;
   box-shadow: var(--dark-shadow);
 }
+#price{
+ margin-top: 16rem;
+}
+p.monthly{
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+sub{
+  color: var(--clr-red-dark);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+sub span{
+  font-size: 5rem;
+}
+sup{
+  margin-top: 5rem;
+  margin-left: -1rem;
+  font-size: 1.2rem;
+}
+i.basic{
+  color: yellow;
+}
 
-.prices {
-  max-width: var(--max-width);
-  margin: 0 auto;
-}
-.basic,
-#advanced,
-#premium {
-  background-color: var(--clr-grey-1);
-  border-radius: 50%;
-  /* margin-top: -50%; */
-  border: 10px solid var(--clr-grey-9);
-}
 .fa-gem {
   transform: translateX(-50%);
   transform: translateY(-50%);
@@ -450,6 +460,7 @@ Section Membership
   width: max-content;
   margin-top: -26px;
 }
+
 
 /*
 ============
@@ -488,34 +499,6 @@ Main-Footer
   font-size: 2em;
 }
 
-
-.line {
-  width: var(--max-width);
-  position: relative;
-  margin: 0 auto;
-  text-align: center;
-  margin: 5rem 0;
-}
-.line::before{
-  content: '';
-  position: absolute;
-  left: 0%;
-  height: 2px;
-  width: 50%;
-  background: #000;
-}
-.line::after{
-  content: '';
-  position: absolute;
-  /* right: 0; */
-  height: 2px;
-  width: 50%;
-  background: #000;
-}
-.line h4{
-margin: 0;
-padding: 2rem 0;
-}
 /*
 ==============
 Media-Queries
