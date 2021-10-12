@@ -175,9 +175,7 @@ Navbar
 .nav-link:hover {
   background: var(--clr-primary-10);
 }
-.nav-link:last-child {
-  padding-right: 0;
-}
+
 .links a {
   color: var(--clr-grey-1);
   font-size: 0.8125rem;
@@ -576,6 +574,9 @@ Media-Queries
   .nav-links:hover {
     background: transparent;
   }
+  .nav-link:last-child {
+  padding-right: 0;
+}
   #form {
     flex-direction: row;
   }
