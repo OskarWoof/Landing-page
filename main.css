@@ -592,6 +592,10 @@ Media-Queries
   #membership p.member-text {
     padding: 0 6rem;
   }
+  .price-cards{
+    max-width: var(--max-width);
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 992px) {
