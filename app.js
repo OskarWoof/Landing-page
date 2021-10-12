@@ -1,3 +1,4 @@
+// Toggle Navigation Menu
 let navToggle = document.querySelector(".nav-toggle");
 let links = document.querySelector(".links");
 let secLinks = document.querySelectorAll("section");
@@ -12,8 +13,7 @@ links.addEventListener("click", function () {
   }
 });
 
-// console.log(secLinks);
-
+// Smooth scrolling jQuery
 $(document).on("click", 'a[href^="#"]', function (e) {
   e.preventDefault();
   $("html, body")
@@ -26,3 +26,4 @@ $(document).on("click", 'a[href^="#"]', function (e) {
       "linear"
     );
 });
+

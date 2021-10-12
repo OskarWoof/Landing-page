@@ -16,30 +16,6 @@
 
     <!--***** jQuery *****-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script>
-      // $(document).on("click", 'a[href^="#"]', function (e) {
-      //   e.preventDefault();
-      //   $("html, body")
-      //     .stop()
-      //     .animate(
-      //       {
-      //         scrollTop: $($(this).attr("href")).offset().top - 72,
-      //       },
-      //       800,
-      //       "linear"
-      //     );
-      // });
-
-      // $("#header-img").on("click", () => {
-      //   $("html,body").animate(
-      //     {
-      //       scrollTop: 0,
-      //     },
-      //     500
-      //   );
-      // });
-    </script>
-    <!--***** jQuery END *****-->
   </head>
   <body>
     <!--************* Header *************-->
@@ -1207,7 +1183,14 @@
     <section id="services">
       <div class="row">
         <h3 class="title">Our Services</h3>
-         <p class="service-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic laudantium quos dicta, magni soluta fugiat possimus! Corrupti facere repellendus libero velit, accusamus tempore? Ab repudiandae consequatur exercitationem, blanditiis quaerat dicta odio aspernatur est ipsa numquam harum rem laudantium totam vero reprehenderit quae dolorem quasi ipsum incidunt debitis, similique veritatis. Non!</p>
+        <p class="service-text">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic
+          laudantium quos dicta, magni soluta fugiat possimus! Corrupti facere
+          repellendus libero velit, accusamus tempore? Ab repudiandae
+          consequatur exercitationem, blanditiis quaerat dicta odio aspernatur
+          est ipsa numquam harum rem laudantium totam vero reprehenderit quae
+          dolorem quasi ipsum incidunt debitis, similique veritatis. Non!
+        </p>
         <div class="cards">
           <div class="col">
             <svg
@@ -1387,7 +1370,7 @@
           </div>
         </div>
       </div>
-      <a href="#"
+      <a href="#hero"
         ><button type="button" id="servBtn">View all Services</button></a
       >
     </section>
@@ -1423,69 +1406,84 @@
     <section id="membership">
       <h3>Membership</h3>
       <p class="member-text">
-       Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, quam perferendis consectetur eaque, ex aperiam nihil expedita necessitatibus dicta nobis voluptates, dolor fugiat? Quae, iure alias quo vel accusamus deleniti natus quibusdam dolorem at aut ea ducimus placeat dolore commodi? Dolorum iste ipsam, ut accusamus iusto nihil odit ullam eius.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, quam
+        perferendis consectetur eaque, ex aperiam nihil expedita necessitatibus
+        dicta nobis voluptates, dolor fugiat? Quae, iure alias quo vel accusamus
+        deleniti natus quibusdam dolorem at aut ea ducimus placeat dolore
+        commodi? Dolorum iste ipsam, ut accusamus iusto nihil odit ullam eius.
       </p>
       <div class="price-cards">
         <div class="price-card">
           <div id="basic">
             <i class="fas fa-gem basic"></i>
           </div>
+          <div class="price-title">
+            <span>BASIC</span>
+          </div>
           <div class="price">
-            <sub
-              >$ <span>99 <sup>99</sup></span></sub
-            >
+            <sub>$ <span>99</span></sub>
           </div>
           <p class="monthly">per month</p>
-          <p class="price-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-            fuga nam mollitia a quos maxime natus facere dolorum praesentium ex
-            atque accusamus cum maiores, eum amet porro laboriosam modi?
-          </p>
+          <div class="price-text">
+            <ul class="price-list">
+              <li><strong>Full Access to all facilities</strong></li>
+              <li>--</li>
+              <li>--</li>
+              <li>--</li>
+            </ul>
+          </div>
         </div>
         <div class="price-card">
-          <div id="basic">
+          <div id="advanced">
             <i class="fas fa-gem advanced"></i>
           </div>
+          <div class="price-title">
+            <span>ADVANCED</span>
+          </div>
           <div class="price">
-            <sub
-              >$ <span>99 <sup>99</sup></span></sub
-            >
+            <sub>$ <span>199</span></sub>
           </div>
           <p class="monthly">per month</p>
-          <p class="price-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-            fuga nam mollitia a quos maxime natus facere dolorum praesentium ex
-            atque accusamus cum maiores, eum amet porro laboriosam modi?
-          </p>
+          <div class="price-text">
+            <ul class="price-list">
+              <li><strong>Full Access to all facilities</strong></li>
+              <li>Pool</li>
+              <li>Jacuzzi</li>
+              <li>Towel Service</li>
+            </ul>
+          </div>
         </div>
         <div class="price-card">
-          <div id="basic">
+          <div id="premium">
             <i class="fas fa-gem premium"></i>
           </div>
+          <div class="price-title">
+            <span>PREMIUM</span>
+          </div>
           <div class="price">
-            <sub
-              >$ <span>99 <sup>99</sup></span></sub
-            >
+            <sub>$ <span>299</span></sub>
           </div>
           <p class="monthly">per month</p>
-          <p class="price-text">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis
-            fuga nam mollitia a quos maxime natus facere dolorum praesentium ex
-            atque accusamus cum maiores, eum amet porro laboriosam modi?
-          </p>
+          <div class="price-text">
+            <ul class="price-list">
+              <li><strong>Full Access to all facilities</strong></li>
+              <li>Services at discounted rate</li>
+              <li>--</li>
+              <li>--</li>
+            </ul>
+          </div>
         </div>
       </div>
       <!-- <div class="cta">
         <h4 class="trial">Now free workout session trials</h4>
       </div> -->
-
     </section>
 
     <!--************ Footer ************-->
     <footer class="main-footer">
       <div class="f_container">
         <p>BRAVE - Gym Studio &copy; 2021</p>
-        <p><a href="www.letters.rs">Q STUDIO</a></p>
+        <p><a href="www.codepen.io">Q STUDIO</a></p>
         <div class="social">
           <a href="#"><i class="fab fa-facebook-square"></i></a>
           <a href="#"><i class="fab fa-twitter-square"></i></a>
