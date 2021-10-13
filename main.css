@@ -144,7 +144,7 @@ Navbar
   background: var(--clr-primary-10);
   box-shadow: var(--light-shadow);
 }
-.logo_toggle {
+.navbar_toggle {
   display: flex;
   align-items: center;
   justify-content: space-between;
