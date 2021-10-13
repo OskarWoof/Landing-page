@@ -211,14 +211,14 @@ Section Hero
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 0 1rem;
   background-image: url(https://images.pexels.com/photos/1554824/pexels-photo-1554824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   /* background-image: url(https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80); */
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
-  background-size: 150% auto;
+  background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(6, 50, 81, 0.5);
 }
 
@@ -546,18 +546,23 @@ Media-Queries
 ==============
 */
 @media screen and (min-width: 768px) {
+  
   #header{
+  }
+  .container{
     display: flex;
+    max-width: var(--max-width);
+    margin: 0 auto;
   }
   #header-img {
     height: 46px;
   }
   #nav-bar {
-    max-width: var(--max-width);
+    width: 100%;
     margin: 0 auto;
     display: flex;
+    justify-content: flex-end;
     align-items: center;
-    justify-content: space-between;
   }
   .nav-bar {
     padding: 0;
@@ -626,4 +631,5 @@ Media-Queries
   #hero h1 {
     font-size: 130px;
   }
+  
 }
