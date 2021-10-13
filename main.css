@@ -536,6 +536,9 @@ Main-Footer
   padding: 0 0.25rem;
   font-size: 2em;
 }
+#nav-bar {
+  display: none;
+}
 
 /*
 ==============
@@ -575,8 +578,8 @@ Media-Queries
     background: transparent;
   }
   .nav-link:last-child {
-  padding-right: 0;
-}
+    padding-right: 0;
+  }
   #form {
     flex-direction: row;
   }
@@ -611,7 +614,7 @@ Media-Queries
     max-width: var(--max-width);
     margin: 0 auto;
   }
-  .cta{
+  .cta {
     display: none;
   }
 }
