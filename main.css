@@ -546,6 +546,9 @@ Media-Queries
 ==============
 */
 @media screen and (min-width: 768px) {
+  #header{
+    display: flex;
+  }
   #header-img {
     height: 46px;
   }
@@ -556,7 +559,7 @@ Media-Queries
     align-items: center;
     justify-content: space-between;
   }
-  .nav-header {
+  .nav-bar {
     padding: 0;
   }
   .nav-toggle {
