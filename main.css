@@ -549,7 +549,7 @@ Main-Footer
 Media-Queries
 ==============
 */
-@media (min-width: 320px) {
+@media screen and (min-width: 320px) {
   .cta {
     /* padding-bottom: 0; */
     margin-bottom: 0;
