@@ -427,10 +427,10 @@ i.premium {
   transform: translateY(-50%);
 }
 i.basic {
-  color: var(--clr-primary-9);
+  color: var(--clr-primary-10);
 }
 i.advanced {
-  color: var(--clr-primary-6);
+  color: var(--clr-primary-5);
 }
 i.premium {
   color: var(--clr-primary-4);
