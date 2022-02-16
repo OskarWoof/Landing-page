@@ -219,7 +219,6 @@ Section Hero
   /* margin: 0 auto; */
   padding: 0 1rem;
   background-image: url(https://images.pexels.com/photos/1554824/pexels-photo-1554824.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-  /* background-image: url(https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1169&q=80); */
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -297,8 +296,6 @@ Section Services
 =================
 */
 #services {
-  /* height: 100vh; */
-  /* margin: 0 auto; */
   padding: 6.25rem 1rem;
   background-color: var(--clr-grey-9);
   text-align: center;
@@ -362,7 +359,6 @@ Section About Us
   margin-bottom: 1.5rem;
 }
 #about h2 {
-  /* font-size: 1.7rem; */
   padding: 0 2.5rem;
   font-weight: 800;
   margin-bottom: 2rem;
